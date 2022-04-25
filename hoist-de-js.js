@@ -77,6 +77,7 @@ console.log(food);
 //     console.log(food);
 // }
 // console.log(food);
+//error
 
 console.log(genre);
 var genre = "disco";
