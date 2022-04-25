@@ -10,4 +10,3 @@ Number.prototype.isPrime = function () {
     }
     return true;
 }
-let n1 = 
