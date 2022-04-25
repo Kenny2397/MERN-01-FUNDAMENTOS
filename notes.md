@@ -332,4 +332,21 @@ Reglas clave de elevación
 
 • Las variables declaradas con let y const también se elevan pero, a diferencia de var, no se inicializan con un valor predeterminado y arrojará un error si se llama antes de que se declaren. const incluso arrojará un error de sintaxis si se llama antes de ser asignado.
 
-###
+
+
+### Una tabla de valores comunes de Big O
+Cuanto más inclinada sea la línea en el gráfico anterior, más trabajo se necesita para resolver ese tipo de algoritmo.
+Big O
+Descripción
+Ejemplo
+O( 1 )
+Cualquier cosa que tiene que correr 1 número de veces
+Encontrar el valor más pequeño de una lista ordenada
+O( N )
+Cualquier cosa que tiene que correr "N" número de veces	Encuentra el valor más grande en una matriz desordenada
+O( N^2 )
+Cualquier cosa que tenga que pasar por "N" cosas "N" veces	Bubble Sort
+O( log(N) )
+Cualquier cosa que pueda reducir el conjunto de valores restantes a la mitad o más para cada valor leído.	Búsqueda binaria
+O(N*log(N))
+Algoritmos que pueden emplear un enfoque de divide y vencerás	Quick Sort
